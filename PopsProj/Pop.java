@@ -53,4 +53,8 @@ public class Pop
     public String toString(){
         return "This population is titled "+this.title+", money:"+this.money+"$, population:"+this.population+" units, needs:"+this.needsCost+"$, has "+families+" families, earns "+this.income+"$ over "+this.employed+" jobs";
     }
+    
+    public void yrAdvance(){
+        
+    }
 }
