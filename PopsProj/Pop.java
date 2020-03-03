@@ -18,6 +18,7 @@ public class Pop
     private int income;
     private int employed;
     private int unemployed;
+    public Job popjob;
 
     
 
