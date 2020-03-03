@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Job
+comment0.text=\r\n\ A\ job\ for\ a\ unit\ in\ a\ pop\ to\ take.\r\n\r\n\ @author\ (Malokai\ Persoff)\r\n\ @version\ (3/3/2020)\r\n
+comment1.params=slots\ descr
+comment1.target=Job(int,\ java.lang.String)
+comment1.text=\r\n\ Job\ Constructor\r\n\r\n\ @param\ slots\ number\ of\ slots\ for\ workers\ to\ fill\r\n\ @param\ descr\ title\ of\ the\ job,\ defaults\ to\ "founders"\r\n
+comment2.params=newSlots
+comment2.target=void\ setSlots(int)
+comment2.text=\r\n\ Method\ setSlots\ sets\ the\ value\ of\ <code>slots</code>\r\n\r\n\ @param\ newSlots\ new\ value\ for\ <code>slots</code>\r\n
+comment3.params=newDescr
+comment3.target=void\ setDescr(java.lang.String)
+comment3.text=\r\n\ Method\ setDescr\ sets\ the\ value\ of\ <code>descr</code>\r\n\r\n\ @param\ newDescr\ new\ value\ for\ <code>descr</code>\r\n
+comment4.params=
+comment4.target=int\ getSlots()
+comment4.text=\r\n\ Method\ getSlots\ gets\ value\ of\ <code>slots</code>\r\n\r\n\ @return\ <code>slots</code>\r\n
+comment5.params=
+comment5.target=java.lang.String\ getDescr()
+comment5.text=\r\n\ Method\ getDescr\ gets\ value\ of\ <code>descr</code>\r\n\r\n\ @return\ <code>descr</code>\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Method\ toString\ returns\ values\ in\ string\ form.\r\n\r\n\ @return\ values\ of\ this\ job\ put\ into\ string\r\n
+numComments=7

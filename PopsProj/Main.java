@@ -13,6 +13,8 @@ public class Main
         String fileLoc = "C:\\Users\\Public\\Documents\\popsStoreData\\";
         String fileLoc0 = "C:\\Users\\Public\\Documents\\popsImportantStore\\";
         Pop testingPop = new Pop("Founders",1000,1,1,1,1,1,1);
+        Job testingJob = new Job(1,"Founders");
         System.out.println(testingPop.toString());
+        System.out.println(testingJob.toString());
     }
 }
