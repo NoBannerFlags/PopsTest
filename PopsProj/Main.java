@@ -14,7 +14,9 @@ public class Main
         String fileLoc0 = "C:\\Users\\Public\\Documents\\popsImportantStore\\";
         Pop testingPop = new Pop("Founders",1000,1,1,1,1,1,1);
         Job testingJob = new Job(1,"Founders");
+        Job testingJob2 = new Job(1, "Testing job", 1, 1,1);
         System.out.println(testingPop.toString());
         System.out.println(testingJob.toString());
+        System.out.println(testingJob2.toString());
     }
 }
