@@ -10,6 +10,9 @@ public class Job
     
     private int slots;
     private String descr = "founders";
+    public int income = 100;
+    public int production = 10;
+    public int projectReq = 100;
 
     
     /**
@@ -22,6 +25,23 @@ public class Job
     {
         this.slots = slots;
         this.descr = descr;
+    }
+    /**
+     * Job Constructor with more values
+     *
+     * @param slots number of slots for workers to fill
+     * @param descr title of the job, defaults to "founders"
+     * @param income income for workers. defaults to 100.
+     * @param production production per worker. defaults to 10
+     * @param projectReq required production before 1 "Project" is done defaults to  100
+     */
+    public Job(int slots, String descr, int income, int production, int projectReq)
+    {
+        this.slots = slots;
+        this.descr = descr;
+        this.income = income;
+        this.production = production;
+        this.projectReq = projectReq;
     }
     
     /**
@@ -66,7 +86,7 @@ public class Job
      * @return values of this job put into string
      */
     public String toString(){
-        return ""+this.descr+": "+this.slots+" avaliable slots.";
+        return ""+this.descr+": "+this.slots+" avaliable slots. income: "+this.income+"$ for "+this.production+" units of production. "+this.projectReq+" units required for each project.";
     }
     
 }
