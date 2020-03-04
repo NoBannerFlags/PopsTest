@@ -13,6 +13,7 @@ public class Job
     public int income = 100;
     public int production = 10;
     public int projectReq = 100;
+    public int KI = 0;
 
     
     /**
@@ -89,4 +90,21 @@ public class Job
         return ""+this.descr+": "+this.slots+" avaliable slots. income: "+this.income+"$ for "+this.production+" units of production. "+this.projectReq+" units required for each project.";
     }
     
+    /**
+     * Method finProject for when a project is finished.
+     *
+     */
+    public void finProject(){
+        slots+=(slots/100)+1;
+        KI+=projectReq*2;
+        KI+=(income/2);
+        if(KI>=(income*5)){
+            KI=KI-income*4;
+            income+=1;
+            slots+=1;
+            if(projectReq>1){
+                projectReq--;
+            }
+        }
+    }
 }
