@@ -106,5 +106,6 @@ public class Job
                 projectReq--;
             }
         }
+        System.out.println("Project finished by "+descr+". KI:"+KI);
     }
 }
