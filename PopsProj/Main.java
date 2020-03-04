@@ -15,8 +15,10 @@ public class Main
         Pop testingPop = new Pop("Founders",1000,1,1,1,1,1,1);
         Job testingJob = new Job(1,"Founders");
         Job testingJob2 = new Job(1, "Testing job", 1, 1,1);
+        Pop testingPop2 = new Pop("Founders",1000,1,1,1,1,1,1, testingJob);
         System.out.println(testingPop.toString());
         System.out.println(testingJob.toString());
         System.out.println(testingJob2.toString());
+        System.out.println(testingPop2.popjob.toString());
     }
 }
