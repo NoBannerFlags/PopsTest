@@ -1,11 +1,11 @@
 #BlueJ package file
-dependency1.from=Pop
-dependency1.to=Job
+dependency1.from=Main
+dependency1.to=Pop
 dependency1.type=UsesDependency
 dependency2.from=Main
-dependency2.to=Pop
+dependency2.to=Job
 dependency2.type=UsesDependency
-dependency3.from=Main
+dependency3.from=Pop
 dependency3.to=Job
 dependency3.type=UsesDependency
 editor.fx.0.height=737
