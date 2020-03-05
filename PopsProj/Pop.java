@@ -57,9 +57,9 @@ public class Pop
      * @param elderly number of elderly units in pop. Defaults to 0.
      * @param income yearly money gain. Increases int money.
      * @param employed number of employed units in pop.
-     * @param popjob <code>Job</code> which the pop currently has
+     * @param popjob Job of population
      */
-    public Pop(String title, int population, int money, int needsCost, int families, int elderly, int income, int employed,Job popjob)
+    public Pop(String title, int population, int money, int needsCost, int families, int elderly, int income, int employed, Job popjob)
     {
        this.title=title;
        this.population=population;
@@ -69,7 +69,7 @@ public class Pop
        this.income=income;
        this.elderly=elderly;
        this.unemployed=unemployed;
-       this.popjob = popjob;
+       this.popjob=popjob;
     }
 
     /**
