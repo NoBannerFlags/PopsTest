@@ -25,4 +25,6 @@ comment7.text=\r\n\ Method\ toString\ returns\ values\ in\ string\ form.\r\n\r\n
 comment8.params=
 comment8.target=void\ finProject()
 comment8.text=\r\n\ Method\ finProject\ for\ when\ a\ project\ is\ finished.\r\n\r\n
-numComments=9
+comment9.params=
+comment9.target=void\ timeAdvance()
+numComments=10

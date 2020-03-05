@@ -108,4 +108,8 @@ public class Job
         }
         System.out.println("Project finished by "+descr+". KI:"+KI);
     }
+    
+    public void timeAdvance(){
+        
+    }
 }

@@ -45,6 +45,32 @@ public class Pop
        this.elderly=elderly;
        this.unemployed=unemployed;
     }
+    
+    /**
+     * Pop Constructor
+     *
+     * @param title name of the pop, defaults to "Founders".
+     * @param population number of units in the pop.
+     * @param money ammount of money units the population has. Defaults to 0.
+     * @param needsCost yearly cost of pop needs.
+     * @param families number of families in pop.
+     * @param elderly number of elderly units in pop. Defaults to 0.
+     * @param income yearly money gain. Increases int money.
+     * @param employed number of employed units in pop.
+     * @param popjob Job of population
+     */
+    public Pop(String title, int population, int money, int needsCost, int families, int elderly, int income, int employed, Job popjob)
+    {
+       this.title=title;
+       this.population=population;
+       this.money=money;
+       this.needsCost=needsCost;
+       this.families=families;
+       this.income=income;
+       this.elderly=elderly;
+       this.unemployed=unemployed;
+       this.popjob=popjob;
+    }
 
     /**
      * Method toString - returns values as a string
