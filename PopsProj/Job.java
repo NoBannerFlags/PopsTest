@@ -3,7 +3,7 @@
  * A job for a unit in a pop to take.
  *
  * @author (Malokai Persoff)
- * @version (3/3/2020)
+ * @version (3/5/2020)
  */
 public class Job
 {

@@ -4,7 +4,7 @@ import java.io.*;
  * Main class, runs everything
  *
  * @author (Malokai Persoff)
- * @version (3/32020)
+ * @version (3/5/2020)
  */
 public class Main
 {
