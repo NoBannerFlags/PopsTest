@@ -3,7 +3,11 @@
  * Class containing all values for regular pops.
  *
  * @author (Malokai Persoff)
+<<<<<<< Updated upstream
  * @version (3/3/2020)
+=======
+ * @version (3/11/2020)
+>>>>>>> Stashed changes
  */
 public class Pop
 {

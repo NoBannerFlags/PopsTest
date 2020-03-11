@@ -4,7 +4,11 @@ import java.io.*;
  * Main class, runs everything
  *
  * @author (Malokai Persoff)
+<<<<<<< Updated upstream
  * @version (3/32020)
+=======
+ * @version (3/11/2020)
+>>>>>>> Stashed changes
  */
 public class Main
 {

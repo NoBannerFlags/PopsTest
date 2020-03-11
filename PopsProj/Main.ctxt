@@ -1,6 +1,10 @@
 #BlueJ class context
 comment0.target=Main
+<<<<<<< Updated upstream
 comment0.text=\r\n\ Main\ class,\ runs\ everything\r\n\r\n\ @author\ (Malokai\ Persoff)\r\n\ @version\ (3/32020)\r\n
+=======
+comment0.text=\r\n\ Main\ class,\ runs\ everything\r\n\r\n\ @author\ (Malokai\ Persoff)\r\n\ @version\ (3/11/2020)\r\n
+>>>>>>> Stashed changes
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

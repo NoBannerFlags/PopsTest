@@ -1,6 +1,10 @@
 #BlueJ class context
 comment0.target=Pop
+<<<<<<< Updated upstream
 comment0.text=\r\n\ Class\ containing\ all\ values\ for\ regular\ pops.\r\n\r\n\ @author\ (Malokai\ Persoff)\r\n\ @version\ (3/3/2020)\r\n
+=======
+comment0.text=\r\n\ Class\ containing\ all\ values\ for\ regular\ pops.\r\n\r\n\ @author\ (Malokai\ Persoff)\r\n\ @version\ (3/11/2020)\r\n
+>>>>>>> Stashed changes
 comment1.params=title\ population\ money\ needsCost\ families\ elderly\ income\ employed
 comment1.target=Pop(java.lang.String,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
 comment1.text=\r\n\ Pop\ Constructor\r\n\r\n\ @param\ title\ name\ of\ the\ pop,\ defaults\ to\ "Founders".\r\n\ @param\ population\ number\ of\ units\ in\ the\ pop.\r\n\ @param\ money\ ammount\ of\ money\ units\ the\ population\ has.\ Defaults\ to\ 0.\r\n\ @param\ needsCost\ yearly\ cost\ of\ pop\ needs.\r\n\ @param\ families\ number\ of\ families\ in\ pop.\r\n\ @param\ elderly\ number\ of\ elderly\ units\ in\ pop.\ Defaults\ to\ 0.\r\n\ @param\ income\ yearly\ money\ gain.\ Increases\ int\ money.\r\n\ @param\ employed\ number\ of\ employed\ units\ in\ pop.\r\n

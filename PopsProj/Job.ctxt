@@ -1,6 +1,10 @@
 #BlueJ class context
 comment0.target=Job
+<<<<<<< Updated upstream
 comment0.text=\r\n\ A\ job\ for\ a\ unit\ in\ a\ pop\ to\ take.\r\n\r\n\ @author\ (Malokai\ Persoff)\r\n\ @version\ (3/3/2020)\r\n
+=======
+comment0.text=\r\n\ A\ job\ for\ a\ unit\ in\ a\ pop\ to\ take.\r\n\r\n\ @author\ (Malokai\ Persoff)\r\n\ @version\ (3/11/2020)\r\n
+>>>>>>> Stashed changes
 comment1.params=slots\ descr
 comment1.target=Job(int,\ java.lang.String)
 comment1.text=\r\n\ Job\ Constructor\r\n\r\n\ @param\ slots\ number\ of\ slots\ for\ workers\ to\ fill\r\n\ @param\ descr\ title\ of\ the\ job,\ defaults\ to\ "founders"\r\n
