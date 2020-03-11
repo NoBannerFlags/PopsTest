@@ -19,6 +19,7 @@ public class Pop
     private int employed;
     private int unemployed;
     public Job popjob;
+    public int yr = 0;
 
     
 
@@ -81,7 +82,13 @@ public class Pop
         return "This population is titled "+this.title+", money:"+this.money+"$, population:"+this.population+" units, needs:"+this.needsCost+"$, has "+families+" families, earns "+this.income+"$ over "+this.employed+" jobs";
     }
     
+    /**
+     * Method yrAdvance - Advances year. <code>yr</code> is increased by 1
+     *
+     */
     public void yrAdvance(){
         
+        System.out.println("Year Advances to "+(yr+1)+" from "+yr);
+        yr++;
     }
 }
